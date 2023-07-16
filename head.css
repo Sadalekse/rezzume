@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* header{
+    color: aquamarine;
+} */
+body{
+font: 16px  'Roboto';
+font-weight: 700;
+background:  #caefbb;
+color: #0f141e;
+}
+.card{
+    border: 10px;
+    border-radius: 5px;
+    background-color: #ebfee9;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+/* .border2{
+    border: 10px;
+    border-radius: 5px;
+    background-color: #fce6e4;
+}*/
+@media (max-width: 650px) {
+    .box {
+        display: block;
+        text-align: center;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-row .form-grup {
+        width: 50%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+.img{
+    border: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 200px;
+} 
+.container{
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    max-width: 900px;
+    padding-top: 30px ;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #24e49a6e;
+    padding: 5px 10px;
+    font: 16px  'Roboto';
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    cursor:pointer ;
+    
+}
+.btn:hover {
+    opacity: .6;
+    text-decoration: underline;
+}
+a {
+color: #000;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    color: #2589e7;
+}
+
+.list {
+padding: 0 20px;
+}
+.list li{
+color: #86898f;
+margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+padding-bottom: 10px;
+}
+.table td:nth-child(2), 
+.table td:nth-child(3){
+    color: #86898f;
+    ;
+    }
+.box {
+        display:inline-block;
+}
+.form h2{
+    text-align: center;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-grup {
+    /* display: inline-block; */
+    margin-right:  20px;
+    /* width: calc(50%-20px); */
+    width: 50%;
+}
+.form-row .form-grup:last-child {
+    margin-right: 0;
+}
+.form-grup {
+ display: block;
+ font-size: 16px;
+ color: #86898f;
+}
+.form-grup input,
+.form-grup textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background:  transparent;
+border-bottom:  1px solid #ccc;
+color: #000;
+padding: 15px 0 10px;
+outline: none;
+font-family: 'Roboto';
+}
